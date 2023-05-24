@@ -1,0 +1,12 @@
+{
+    "name": "WCI Check",
+    "version": "1.0.0",
+    "description": "",
+    "web_accessible_resources": ["unsafe_connection_page.html"],
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"]
+}

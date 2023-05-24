@@ -1,0 +1,48 @@
+{
+  "name": "Website & Infrastructure",
+  "description": "Website for Siege Engineers + other tools",
+  "image_url": "projects/website.png",
+  "project_url": "https://siegeengineers.org",
+  "github_url": "https://github.com/siegeengineers/website",
+  "is_active": true,
+  "domains": [
+    "aoe2.se",
+    "siegeengieers.org"
+  ],
+  "deployment": [
+    "Uberspace"
+  ],
+  "technologies": [
+    "Gatsby", "Bulma"
+  ],
+  "complexity": "Medium",
+  "contributors": [
+    "hszemi",
+    "Jester"
+  ],
+  "deployers": [
+    "hszemi",
+    "Jester"
+  ],
+  "admins": [
+    "hszemi"
+  ],
+  "costs": {
+    "currency": "€",
+    "total": 102.96,
+    "lineitems": [
+      {
+        "amount": 19.16,
+        "description": "siegeengieers.org"
+      },
+      {
+        "amount": 23.80,
+        "description": "aoe2.se"
+      },
+      {
+        "amount": 60.00,
+        "description": "Deployment"
+      }
+    ]
+  }
+}

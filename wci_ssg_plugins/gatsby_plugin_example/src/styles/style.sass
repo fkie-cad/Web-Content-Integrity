@@ -1,0 +1,102 @@
+@charset "utf-8"
+@import "../../node_modules/bulma/sass/utilities/initial-variables"
+
+//@import "style-dark"
+
+$yellow: #ffdc4e
+$family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace
+$family-code: $family-monospace
+
+@import "../../node_modules/bulma/bulma.sass"
+
+*::selection
+  background-color: $yellow
+
+kbd 
+  font-family: $family-code
+
+h1, h2, h3, h4, h5, h6
+    font-family: "Bitter", sans-serif
+
+.content
+  h1, h2, h3, h4, h5, h6
+    color: $scheme-invert-ter
+
+.token.tag,
+.token.content,
+.token.number
+  display: inline
+  padding: inherit
+  font-size: inherit
+  line-height: inherit
+  text-align: inherit
+  vertical-align: inherit
+  border-radius: inherit
+  font-weight: inherit
+  white-space: inherit
+  background: inherit
+  margin: inherit
+
+h1
+  color: $yellow
+
+.hero .title
+  color: $yellow !important
+
+.hero .subtitle
+  color: $grey-light !important
+
+.hero-body
+  text-align: center
+
+.author-image
+  padding: 2px
+  box-shadow: $warning-dark 0 0 0 1px
+  border-radius: 100%
+  background-color: $scheme-main
+
+.card-image
+  h3
+    color: $warning
+    position: absolute
+    bottom: 0
+    padding: 10px
+    margin: 0
+    width: 100%
+    text-shadow: 1px 1px #000000
+    background-color: #00000030
+
+.se-project
+  background-color: $scheme-main-ter
+  box-shadow: none
+  table.table
+    background-color: transparent
+    
+dl.description
+  dt
+    text-transform: uppercase
+    font-size: 80%
+    opacity: 60%
+  dd
+    margin-left: 0
+    &:not(:last-child)
+      margin-bottom: 1em
+
+.navbar.is-dark
+  .navbar-end, .navbar-start
+    .navbar-link.is-active, .navbar-item.is-active, .navbar-link:hover
+      +desktop
+        color: $warning !important
+      +tablet-only
+        color: $warning-dark !important
+      +mobile
+        color: $warning-dark !important
+
+.tile.notification
+  padding: 1.25rem
+
+summary
+  cursor: pointer
+  
+.ghost-email:before
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld)

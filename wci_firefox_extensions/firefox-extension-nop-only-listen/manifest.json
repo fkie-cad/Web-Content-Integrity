@@ -1,0 +1,11 @@
+{
+    "name": "WCI Check NOP only listen",
+    "version": "1.0.0",
+    "description": "",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "aoe2techtree.net",
+  "description": "Age of Empires II Tech Tree on your browser",
+  "image_url": "projects/aoe2techtree.png",
+  "project_url": "https://aoe2techtree.net",
+  "github_url": "https://github.com/siegeengineers/aoe2techtree",
+  "is_active": true,
+  "domains": [
+    "aoe2techtree.net"
+  ],
+  "deployment": [
+    "Github Pages"
+  ],
+  "technologies": [
+    "Javacript",
+    "Python",
+    "SVG.js"
+  ],
+  "complexity": "Medium",
+  "contributors": [
+    "hszemi",
+    "Jester",
+    "et al."
+  ],
+  "deployers": [
+    "(many)"
+  ],
+  "admins": [
+    "hszemi"
+  ],
+  "costs": {
+    "currency": "€",
+    "total": 18.49,
+    "lineitems": [
+      {
+        "amount": 18.49,
+        "description": "Domain"
+      },
+      {
+        "amount": 0,
+        "description": "Deployment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "aoe2map.net",
+  "description": "A website for sharing random map scripts",
+  "image_url": "projects/aoe2map.png",
+  "project_url": "https://aoe2map.net",
+  "github_url": "https://github.com/siegeengineers/aoe2map",
+  "is_active": true,
+  "domains": [
+    "aoe2map.net"
+  ],
+  "deployment": [
+    "Uberspace", "Azure"
+  ],
+  "technologies": [
+    "Python",
+    "Django",
+    "Javascript",
+    "Bootstarp",
+    "PHP"
+  ],
+  "complexity": "Medium",
+  "contributors": [
+    "hszemi"
+  ],
+  "deployers": [
+    "hszemi"
+  ],
+  "admins": [
+    "hszemi"
+  ],
+  "costs": {
+    "currency": "€",
+    "total": 114.49,
+    "lineitems": [
+      {
+        "amount": 18.49,
+        "description": "Domain"
+      },
+      {
+        "amount": 96.00,
+        "description": "Deployment"
+      }
+    ]
+  }
+}

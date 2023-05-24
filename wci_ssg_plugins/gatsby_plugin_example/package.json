@@ -1,0 +1,87 @@
+{
+  "name": "se-website",
+  "version": "2.0.0-development",
+  "description": "Website for SiegeEngineers.org",
+  "keywords": [
+    "age2",
+    "siege-engineers"
+  ],
+  "homepage": "https://github.com/siegeengineers/website#readme",
+  "bugs": {
+    "url": "https://github.com/siegeengineers/website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siegeengineers/website.git"
+  },
+  "license": "MIT",
+  "author": "Maxence Poutord <maxence.poutord@gmail.com>",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js' 'data/*.js' 'gatsby-*.js'",
+    "lh": "lighthousebot",
+    "lint": "eslint . --ext .js",
+    "semantic-release": "semantic-release",
+    "start": "gatsby develop",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "wci-gen-key-rotation": "wci-gen public --key-rotation"
+  },
+  "bin": {},
+  "dependencies": {
+    "@fontsource/bitter": "^4.5.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@stripe/stripe-js": "^1.17.0",
+    "@wci/wci-gen": "file:../node_wci_package",
+    "bulma": "^0.9.3",
+    "gatsby": "^3.0.0",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-plugin-htaccess": "^1.4.0",
+    "gatsby-plugin-image": "^1.8.0",
+    "gatsby-plugin-manifest": "^3.0.0",
+    "gatsby-plugin-mdx": "^2.0.0",
+    "gatsby-plugin-page-creator": "^3.0.0",
+    "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-sass": "^4.8.0",
+    "gatsby-plugin-sharp": "^3.0.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
+    "gatsby-remark-autolink-headers": "^4.6.0",
+    "gatsby-remark-copy-linked-files": "^3.0.0",
+    "gatsby-remark-images": "^4.0.0",
+    "gatsby-remark-prismjs": "^4.0.0",
+    "gatsby-remark-responsive-iframe": "^3.0.0",
+    "gatsby-remark-smartypants": "^3.0.0",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-remark": "^3.0.0",
+    "prismjs": "^1.23.0",
+    "react": "^17.0.0",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "^17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "sass": "^1.35.1",
+    "terser": "^4.6.11",
+    "use-query-params": "^1.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "puppeteer": "^5.4.1",
+    "semantic-release": "^17.4.1",
+    "typescript": "^4.3.4",
+    "yaml": "^1.6.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^3.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}

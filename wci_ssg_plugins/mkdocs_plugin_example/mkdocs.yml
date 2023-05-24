@@ -1,0 +1,7 @@
+site_name: My Awesome Page
+theme:
+  name: material
+plugins:
+  - wci-plugin
+nav:
+  - index.md

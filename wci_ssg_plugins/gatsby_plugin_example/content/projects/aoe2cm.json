@@ -1,0 +1,45 @@
+{
+  "name": "aoe2cm.net",
+  "description": "Captains Mode for Age of Empires II",
+  "image_url": "projects/aoe2cm2.png",
+  "project_url": "https://aoe2cm.net",
+  "github_url": "https://github.com/siegeengineers/aoe2cm2",
+  "is_active": true,
+  "domains": [
+    "aoe2cm.net"
+  ],
+  "deployment": [
+    "Uberspace"
+  ],
+  "technologies": [
+    "Typescript",
+    "React",
+    "socket.io",
+    "Bulma"
+  ],
+  "complexity": "High",
+  "contributors": [
+    "hszemi",
+    "Jester"
+  ],
+  "deployers": [
+    "hszemi"
+  ],
+  "admins": [
+    "hszemi"
+  ],
+  "costs": {
+    "currency": "€",
+    "total": 78.49,
+    "lineitems": [
+      {
+        "amount": 18.49,
+        "description": "Domain"
+      },
+      {
+        "amount": 60.00,
+        "description": "Deployment"
+      }
+    ]
+  }
+}

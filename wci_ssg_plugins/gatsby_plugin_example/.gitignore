@@ -1,0 +1,10 @@
+node_modules/
+public
+.gatsby-context.js
+.DS_Store
+.python-version
+.cache/
+yarn.lock
+package-lock.json
+.idea/
+*.iml

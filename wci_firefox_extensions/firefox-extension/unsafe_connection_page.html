@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <style>
+            html,
+            body {
+                margin: 0;
+            }
+
+            h1,
+            p {
+                font-family: "Courier New", Courier, monospace;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .material-icons {
+                color: red;
+                font-size: 100px;
+            }
+
+            .warning_content {
+                padding: 16px;
+                max-width: 800px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+            }
+
+            .warning_text {
+                flex-grow: 1;
+                line-height: 2;
+                font-family: "Quicksand", sans-serif;
+            }
+
+            .back_button {
+                float: right;
+                background-color: dodgerblue;
+                font-family: "Quicksand", sans-serif;
+                color: white;
+                border: 2px solid rgb(51, 125, 199);
+                font-size: 24px;
+                border-radius: 8px;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            .back_button_form {
+                padding-top: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="banner">
+            <div class="warning_content">
+                <div class="warning_text">
+                    <div class="material-icons">warning</div>
+                    <h1>Unsafe connection detected</h1>
+                    <p>
+                        Attacker might be trying to steal your information from
+                        <b>{{url}}</b>.
+                    </p>
+                    <p>Reason: <b>{{reason}}</b>.</p>
+                    <form class="back_button_form">
+                        <input
+                            class="back_button"
+                            type="button"
+                            value="BACK TO SAFETY"
+                            onclick="history.back()"
+                        />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

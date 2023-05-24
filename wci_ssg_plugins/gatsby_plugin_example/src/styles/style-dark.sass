@@ -1,0 +1,85 @@
+@charset "utf-8"
+@import "../../node_modules/bulma/sass/utilities/functions"
+
+//$black:        hsl(0, 0%, 4%) 
+//$black-bis:    hsl(0, 0%, 7%) 
+//$black-ter:    hsl(0, 0%, 14%) 
+//
+//$grey-darker:  hsl(0, 0%, 21%) 
+//$grey-dark:    hsl(0, 0%, 29%) 
+//$grey:         hsl(0, 0%, 48%) 
+//$grey-light:   hsl(0, 0%, 71%) 
+//$grey-lighter: hsl(0, 0%, 86%) 
+//$grey-lightest: hsl(0, 0%, 93%) 
+//
+//$white-ter:    hsl(0, 0%, 96%) 
+//$white-bis:    hsl(0, 0%, 98%) 
+//$white:        hsl(0, 0%, 100%) 
+
+$scheme-main: $black-ter
+$scheme-main-bis: $black-bis
+$scheme-main-ter: $black-ter
+$scheme-invert: $white
+$scheme-invert-bis: $white-bis
+$scheme-invert-ter: $white-ter
+
+
+
+$notification-background-color: $black-bis
+
+$text: $white-ter 
+$text-invert: findColorInvert($text) 
+$text-light: $grey-dark 
+$text-strong: $white-bis
+$background: $black-ter
+
+$link: $cyan 
+$link-invert: findColorInvert($link) 
+$link-light: findDarkColor($link) 
+$link-dark: findLightColor($link) 
+$link-visited: $purple 
+
+$link-hover: $grey-lighter 
+$link-hover-border: $grey-dark 
+
+$link-focus: $grey-lighter 
+$link-focus-border: $cyan 
+
+$link-active: $grey-lighter 
+$link-active-border: $grey-light 
+
+
+$primary: $turquoise
+
+$info: $cyan
+$success: $green
+$warning: $yellow
+$danger: $red
+
+$light: $white-ter
+$dark: $grey-darker
+
+
+
+
+$primary-invert: findColorInvert($primary) 
+$primary-light: findLightColor($primary) 
+$primary-dark: findLightColor($primary) 
+$info-invert: findColorInvert($info) 
+$info-light: findDarkColor($info) 
+$info-dark: findLightColor($info) 
+$success-invert: findColorInvert($success) 
+$success-light: findDarkColor($success) 
+$success-dark: findLightColor($success) 
+$warning-invert: findColorInvert($warning) 
+$warning-light: findDarkColor($warning) 
+$warning-dark: findLightColor($warning) 
+$danger-invert: findColorInvert($danger) 
+$danger-light: findDarkColor($danger) 
+$danger-dark: findLightColor($danger)
+$light-invert: findColorInvert($light) 
+$dark-invert: findColorInvert($dark) 
+
+
+$custom-shades: null
+$shades: mergeColorMaps(("black-bis": $white-bis, "black-ter": $white-ter, "grey-darker": $grey-lighter, "grey-dark": $grey-light, "grey": $grey, "grey-light": $grey-dark, "grey-lighter": $grey-darker, "white-ter": $black-ter, "white-bis": $black-bis), $custom-shades) 
